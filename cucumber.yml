@@ -1,0 +1,8 @@
+# config/cucumber.yml
+##YAML Template
+---
+default: --format pretty --profile html_report --profile json --profile rerun
+html_report: --format html --out report<%= ENV['TEST_ENV_NUMBER'] %>.html
+json: --format json --out report<%= ENV['TEST_ENV_NUMBER'] %>.json
+junit: --format junit --out report.xml
+rerun: --format rerun --out failed_scenarios.txt

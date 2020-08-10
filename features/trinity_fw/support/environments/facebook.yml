@@ -1,0 +1,7 @@
+device: desktop
+base_url: https://www.facebook.com
+browser: chrome
+page_configurations: 'facebook'
+default_page: 'facebook'
+api_url:
+database_connection:

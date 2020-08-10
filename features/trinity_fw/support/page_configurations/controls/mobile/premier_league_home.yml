@@ -1,0 +1,13 @@
+extends: base
+controls:  {
+  match_list: {
+    value: matchListContainer,
+    locator_type: class,
+    control: Div
+  },
+  matches: {
+    locator_type: text,
+    control: LiElement,
+    value: Matches
+  }
+}

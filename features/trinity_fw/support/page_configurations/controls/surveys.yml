@@ -1,0 +1,18 @@
+controls:
+  {
+    do_you_like_cats: {
+      control: Container,
+      elements: [
+        yes_option: {
+          control: Checkbox,
+          locator_type: 'css',
+          value: 'span#a-1211657-3063902 input[type="checkbox"]'
+        },
+        no_option: {
+          control: Checkbox,
+          locator_type: 'css',
+          value: 'span#a-1211657-3063903 input[type="checkbox"]'
+        }
+      ]
+    }
+  }

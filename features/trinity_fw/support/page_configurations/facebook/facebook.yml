@@ -1,0 +1,64 @@
+controls: {
+  username: {
+    value: 'email',
+    locator_type: 'id',
+    control: TextInput
+  },
+  password: {
+    value: 'pass',
+    locator_type: 'id',
+    control: TextInput
+  },
+  login_button: {
+    value: 'loginbutton',
+    locator_type: 'id',
+    control: Label
+  },
+  left_panel: {
+    value: 'userNav',
+    locator_type: 'id',
+    control: Container,
+    elements: [
+      name: {
+        value: 'John Frame',
+        locator_type: 'text',
+        control: Div
+      },
+    ]
+  },
+  head_panel: {
+    control: Container,
+    elements: [
+      home: {
+        value: 'Home',
+        locator_type: 'text',
+        control: Link
+      },
+      find_friends: {
+        value: 'findFriendsNav',
+        locator_type: 'id',
+        control: Link
+      },
+      create: {
+        value: 'Create',
+        locator_type: 'text',
+        control: Link
+      },
+      friend_requests: {
+        value: 'fbRequestsJewel',
+        locator_type: 'id',
+        control: Div
+      },
+      messages: {
+        value: 'mercurymessages',
+        locator_type: 'name',
+        control: Link
+      },
+      notifications: {
+        value: 'fbNotificationsJewel',
+        locator_type: 'id',
+        control: Div
+      }
+    ]
+  }
+}

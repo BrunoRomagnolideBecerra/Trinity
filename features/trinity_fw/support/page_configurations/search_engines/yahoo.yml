@@ -1,0 +1,12 @@
+controls: {
+  search_input: {
+    control: TextInput,
+    locator_type: id,
+    value: header-search-input
+  },
+  search_button: {
+    control: Button,
+    locator_type: id,
+    value: header-desktop-search-button
+  }
+}

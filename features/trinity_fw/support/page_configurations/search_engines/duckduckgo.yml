@@ -1,0 +1,13 @@
+controls: {
+  search_input: {
+    control: TextInput,
+    locator_type: id,
+    value: search_form_input_homepage
+  },
+  search_button: {
+    control: Input,
+    locator_type: id,
+    value: search_button_homepage
+  }
+
+}

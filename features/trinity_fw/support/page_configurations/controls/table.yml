@@ -1,0 +1,9 @@
+extends: base
+controls:
+  {
+    league_table: {
+      control: Table,
+      locator_type: css,
+      value: '.mainTableTab.active table'
+    }
+  }

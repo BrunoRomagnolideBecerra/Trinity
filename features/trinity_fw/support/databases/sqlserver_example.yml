@@ -1,0 +1,8 @@
+db_type: sqlserver
+host: my_host
+username: iam
+password: iam_password
+database: demo_sqlserver
+port: 1433
+login_timeout: 5
+timeout: 20

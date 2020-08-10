@@ -1,0 +1,6 @@
+db_type: oracle
+host: my_host
+username: iam
+password: iam_password
+port: 1521
+service_name: demo_oracle

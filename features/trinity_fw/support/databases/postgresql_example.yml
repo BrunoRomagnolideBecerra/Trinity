@@ -1,0 +1,4 @@
+db_type: postgresql
+database: postgres
+user: iam
+password: iam_password

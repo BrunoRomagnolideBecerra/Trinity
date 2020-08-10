@@ -1,0 +1,10 @@
+# See all available switches in https://peter.sh/experiments/chromium-command-line-switches/
+switches: ['--disable-notifications',
+           '--ignore-certificate-errors',
+           '--disable-popup-blocking',
+           '--disable-translate',
+           '--start-maximized',
+  #'--headless'
+  #'--window-size=1920,1280',
+  #'--proxy-server=https://127.0.0.1:80'
+]

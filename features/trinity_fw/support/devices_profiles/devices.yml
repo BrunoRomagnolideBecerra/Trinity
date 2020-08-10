@@ -1,0 +1,23 @@
+android:
+  platformName: 'Android'
+  deviceName: 'emulator-554'
+  browserName: 'Chrome'
+  newCommandTimeout: 600
+
+android_native_app:
+  platformName: 'Android'
+  deviceName: 'emulator-554'
+  appPackage: 'com.google.android.apps.translate'
+  appActivity: 'com.google.android.apps.translate.TranslateActivity'
+
+android_ms_translator:
+  platformName: 'Android'
+  deviceName: 'emulator-554'
+  appPackage: 'com.microsoft.translator'
+  appActivity: 'com.microsoft.translator.activity.SplashActivity'
+
+ios:
+  platformName: 'iOS'
+  platformVersion: '13'
+  deviceName: 'iPhone Simulator'
+  browserName: 'Safari'

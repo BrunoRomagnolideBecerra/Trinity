@@ -1,0 +1,4 @@
+db_type: mysql
+database: employees
+user: iam
+password: iam_password

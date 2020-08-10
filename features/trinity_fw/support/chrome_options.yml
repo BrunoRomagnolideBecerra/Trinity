@@ -1,0 +1,5 @@
+options: {
+ # mobileEmulation: {
+ #   deviceName: "iPhone X"
+ # }
+}

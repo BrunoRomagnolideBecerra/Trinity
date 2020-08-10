@@ -1,0 +1,4 @@
+device: android
+device_profile: android
+appium_server: 'http://localhost:4723/wd/hub/'
+page_configurations: 'controls/mobile'

@@ -1,0 +1,2 @@
+local_settings:
+    local_settings_file_path: '/features/support/local_settings.yml'

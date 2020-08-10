@@ -1,0 +1,9 @@
+device: desktop
+device_profile: android
+base_url: https://www.google.com
+browser: chrome
+page_configurations: 'google'
+default_page: 'google'
+api_url:
+database_connection:
+appium_server: 'http://localhost:4723/wd/hub/'

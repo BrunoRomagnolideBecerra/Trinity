@@ -1,0 +1,24 @@
+controls:  {
+  sub_nav: {
+    control: Container,
+    locator_type: css,
+    value: 'nav.subNav',
+    elements: [
+      tables: {
+        control: Link,
+        locator_type: text,
+        value: /Table/ #Search using a regex as input value
+      }
+    ]
+  },
+  next: {
+    control: Button,
+    locator_type: text,
+    value: 'Next'
+  },
+  select_1: {
+    control: DropDown,
+    locator_type: name,
+    value: 'rgpsfavoritos[]'
+  }
+}

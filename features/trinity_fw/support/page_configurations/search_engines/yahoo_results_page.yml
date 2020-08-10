@@ -1,0 +1,12 @@
+controls: {
+  results: {
+    control: Div,
+    locator_type: id,
+    value: results
+  },
+  result_titles: {
+    control: BaseElements,
+    locator_type: class,
+    value: ["title", "ov-h"]
+  }
+}

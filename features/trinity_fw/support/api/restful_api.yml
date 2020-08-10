@@ -1,0 +1,4 @@
+rest_end_point:
+  get_cat_fact: 'facts'
+  post: 'sample/post/json'
+  my_self: 'rest/api/2/myself'

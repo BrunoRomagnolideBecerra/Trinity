@@ -1,0 +1,15 @@
+controls: {
+  name_panel: {
+    control: Container,
+    locator_type: 'class',
+    value: 'ph5 pb5',
+    elements: [
+      name: {
+        value: 'inline t-24 t-black t-normal break-words',
+        locator_type: 'class',
+        control: LiElement
+      }
+
+    ]
+  }
+}

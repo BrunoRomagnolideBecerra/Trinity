@@ -1,0 +1,11 @@
+support_folder_path: 'features/trinity_fw' #Starting from the project root folder, where the support folder will live
+implicit_wait_timeout: 10
+sql_scripts_path: 'features/sql_scripts/'
+json_templates_path: 'features/json_templates/'
+webdrivers: { #if the webdriver binary path is empty, trinity will search the driver on your PATH
+  edge: ,
+  chrome: , # e.g: 'c:/drivers/chromedriver.exe'
+  firefox: ,
+  safari:
+}
+

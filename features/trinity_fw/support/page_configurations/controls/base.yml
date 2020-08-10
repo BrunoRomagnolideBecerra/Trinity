@@ -1,0 +1,34 @@
+controls: {
+  sub_nav: {
+    control: Container,
+    locator_type: css,
+    value: 'nav.subNav',
+    elements: [
+      tables: {
+        control: Link,
+        locator_type: text,
+        value: 'Tables'
+      },
+      tickets: {
+        control: Link,
+        locator_type: text,
+        value: 'Tickets'
+      },
+      home: {
+        control: Link,
+        locator_type: text,
+        value: 'Home'
+      }
+    ]
+  },
+  sign_in: {
+    control: Link,
+    locator_type: text,
+    value: 'Sign in'
+  },
+  footer: {
+    value: mainFooter,
+    locator_type: class,
+    control: BaseElement
+  }
+}

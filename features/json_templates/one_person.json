@@ -1,0 +1,12 @@
+{
+  "name": "#args1",
+  "hobbies": [
+    "hiking",
+    "tennis",
+    "fly fishing"
+  ],
+  "siblings": {
+    "brothers": 0,
+    "sisters": 1
+  }
+}

@@ -1,0 +1,70 @@
+controls: {
+  username: {
+    value: 'session_key',
+    locator_type: 'name',
+    control: TextInput
+  },
+  password: {
+    value: 'session_password',
+    locator_type: 'name',
+    control: TextInput
+  },
+  login_button: {
+    value: 'sign-in-form__submit-btn',
+    locator_type: 'class',
+    control: Button
+  },
+  left_panel: {
+    control: Container,
+    locator_type: 'class',
+    value: 'left-rail-container',
+    elements: [
+      name: {
+        value: 'profile-rail-card__actor-link',
+        locator_type: 'class',
+        control: Div
+      }
+
+    ]
+  },
+  head_panel: {
+    control: Container,
+    elements: [
+      home: {
+        value: 'feed-nav-item',
+        locator_type: 'id',
+        control: LiElement
+      },
+      my_network: {
+        value: 'mynetwork-nav-item',
+        locator_type: 'id',
+        control: LiElement
+      },
+      jobs: {
+        value: 'jobs-nav-item',
+        locator_type: 'id',
+        control: LiElement
+      },
+      messaging: {
+        value: 'messaging-nav-item',
+        locator_type: 'id',
+        control: LiElement
+      },
+      notifications: {
+        value: 'notifications-nav-item',
+        locator_type: 'id',
+        control: LiElement
+      },
+      me: {
+        value: 'profile-nav-item',
+        locator_type: 'id',
+        control: LiElement
+      },
+      work: {
+        value: 'app-launcher-nav-item',
+        locator_type: 'id',
+        control: LiElement
+      }
+    ]
+  }
+}

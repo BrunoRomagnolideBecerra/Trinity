@@ -1,0 +1,7 @@
+device: desktop
+base_url:
+browser: chrome
+database_connections: {
+  mongo: mongo_example,
+  sql: mysql_example
+}

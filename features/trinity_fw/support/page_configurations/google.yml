@@ -1,0 +1,7 @@
+controls: {
+  searchbox: {
+    control: TextInput,
+    locator_type: 'name',
+    value: 'q'
+  }
+}

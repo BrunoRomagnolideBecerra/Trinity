@@ -1,0 +1,61 @@
+#The file must be named as the screen where you navigated in your test case
+# e.g: I navigate to "My Screen", file should be my_screen.yml
+
+controls: {
+  element_name: {                                 #name used in the step_definition. e.g: @context.page.element_name.method
+    value: 'some_value',                          #this value is used in the controller. e.g: browser.element(:foo => [some_value])
+    locator_type: 'id/class/name/text',           #this value is used in the controller. e.g: browser.element(locator_type => foo)
+    control: Controller_name                      # Controller that will receive all values and create an instance of the element.
+  }
+}
+
+#For containers the following formats can be used as well
+
+controls: {
+  my_container: {
+    control: Container,
+    value: 'some_value',
+    locator_type: 'id/class/name/text',
+    elements: [
+      my_element: {
+        value: 'some_value',
+        locator_type: 'id/class/name/text',
+        control: Controller_name
+      }
+    ]
+  }
+}
+
+#For logical placement only, value and locator type can be supressed
+controls: {
+  my_container: {
+    control: Container,
+    elements: [
+      my_element: {
+        value: 'some_value',
+        locator_type: 'id/class/name/text',
+        control: Controller_name
+      }
+    ]
+  }
+}
+#Nested containers are @supported as well
+controls: {
+  my_container: {
+    control: Container,
+    value: 'some_value',
+    locator_type: 'id/class/name/text',
+    elements: [
+      my_nested_container: {
+        control: Container,
+        elements: [
+          my_element_2: {
+            value: 'some_value',
+            locator_type: 'id/class/name/text',
+            control: Controller_name
+          }
+        ]
+      }
+    ]
+  }
+}

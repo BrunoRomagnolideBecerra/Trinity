@@ -1,0 +1,7 @@
+controls: {
+  results: {
+    control: Links,
+    locator_type: 'css',
+    value: '#search div.r a'
+  }
+}

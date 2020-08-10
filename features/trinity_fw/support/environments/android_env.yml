@@ -1,0 +1,3 @@
+device: android
+device_profile: android_ms_translator
+appium_server: 'http://localhost:4723/wd/hub/'

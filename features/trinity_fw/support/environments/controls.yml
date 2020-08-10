@@ -1,0 +1,8 @@
+device: desktop
+device_profile: android
+base_url: https://www.premierleague.com/
+browser: chrome
+page_configurations: 'controls'
+default_page: 'google'
+api_url:
+database_connections: {}

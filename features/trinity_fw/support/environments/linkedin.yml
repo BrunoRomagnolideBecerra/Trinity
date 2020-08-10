@@ -1,0 +1,8 @@
+device: desktop
+base_url: https://www.linkedin.com/home
+browser: chrome
+page_configurations: 'linkedin'
+default_page: 'linkedin'
+api_url:
+database_connection:
+users: linkedin

@@ -1,0 +1,8 @@
+db_type: mongoDB
+host: mongodb+srv://cluster0-vcxtw.mongodb.net # or [ '127.0.0.1:27017' ] ['iad-c17-0.objectrocket.com:12345, iad-c17-1.objectrocket.com:12345']
+database: test
+user: iam
+password: iam_password
+#optional values
+#replica_set: 3d62adc37bad4f628cf5e8db921ce445
+#ssl: true

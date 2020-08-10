@@ -1,0 +1,7 @@
+device: desktop
+base_url:
+browser: chrome
+page_configurations: 'search_engines'
+default_page:
+api_url:
+database_connection:

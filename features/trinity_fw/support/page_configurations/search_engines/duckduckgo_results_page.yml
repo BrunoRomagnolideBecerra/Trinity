@@ -1,0 +1,12 @@
+controls: {
+  results: {
+    control: Div,
+    locator_type: id,
+    value: links
+  },
+  result_titles: {
+    control: h2s@watir,
+    locator_type: class,
+    value: result__title
+  }
+}
